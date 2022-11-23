@@ -1,4 +1,4 @@
-package com.mmw.leetcode.模拟法;
+package src.com.mmw.leetcode.模拟法;
 
 public class Solotion38 {
     public String countAndSay(int n) {

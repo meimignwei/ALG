@@ -1,4 +1,4 @@
-package com.mmw.leetcode.二分查找;
+package src.com.mmw.leetcode.二分查找;
 
 import javafx.scene.web.WebHistory;
 

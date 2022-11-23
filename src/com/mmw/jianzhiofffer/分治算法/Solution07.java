@@ -1,5 +1,7 @@
-package com.mmw.jianzhiofffer.分治算法;
+package src.com.mmw.jianzhiofffer.分治算法;
 
+
+import src.com.mmw.jianzhi.TreeNode;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -12,8 +14,6 @@ public class Solution07 {
             map.put(inorder[i], i);
         }
         return buildTreeNode(map,preorder, inorder, 0, preorder.length-1, 0, inorder.length-1);
-
-
     }
 
     private TreeNode buildTreeNode(Map<Integer, Integer> map, int[] preorder, int[] inorder, int i, int length1, int j, int length2) {
