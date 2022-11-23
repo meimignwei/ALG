@@ -1,5 +1,7 @@
 package com.mmw.jianzhiofffer.搜索与回溯算法;
 
+import src.com.mmw.leetcode.树.Node;
+
 public class Solution36 {
     Node head, pre;
     public Node treeToDoublyList(Node root) {
