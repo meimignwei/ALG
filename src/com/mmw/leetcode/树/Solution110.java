@@ -1,4 +1,6 @@
-package com.mmw.leetcode.树;
+package src.com.mmw.leetcode.树;
+
+import src.com.mmw.jianzhi.TreeNode;
 
 public class Solution110 {
     public boolean isBalanced(TreeNode root) {
