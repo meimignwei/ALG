@@ -1,4 +1,4 @@
-package com.mmw.leetcode;
+package src.com.mmw.leetcode;
 
 public class Solution2 {
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
