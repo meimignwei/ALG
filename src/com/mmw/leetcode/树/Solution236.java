@@ -1,4 +1,6 @@
-package com.mmw.leetcode.树;
+package src.com.mmw.leetcode.树;
+
+import src.com.mmw.jianzhi.TreeNode;
 
 public class Solution236 {
     public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
