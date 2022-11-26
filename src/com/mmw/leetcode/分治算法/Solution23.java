@@ -1,4 +1,4 @@
-package com.mmw.leetcode.分治算法;
+package src.com.mmw.leetcode.分治算法;
 
 
 import java.util.List;
