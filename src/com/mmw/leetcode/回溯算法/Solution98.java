@@ -1,4 +1,6 @@
-package com.mmw.leetcode.回溯算法;
+package src.com.mmw.leetcode.回溯算法;
+
+import src.com.mmw.jianzhi.TreeNode;
 
 public class Solution98 {
     boolean flag = true;
