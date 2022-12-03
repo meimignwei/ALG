@@ -1,4 +1,4 @@
-package com.mmw.leetcode.链表;
+package src.com.mmw.leetcode.链表;
 
 public class ListNode {
     int val;

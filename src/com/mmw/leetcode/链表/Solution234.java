@@ -1,4 +1,4 @@
-package com.mmw.leetcode.链表;
+package src.com.mmw.leetcode.链表;
 
 import java.util.ArrayList;
 import java.util.List;
