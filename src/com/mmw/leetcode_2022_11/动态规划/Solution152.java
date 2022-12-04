@@ -1,5 +1,9 @@
 package src.com.mmw.leetcode_2022_11.动态规划;
 
+
+/*
+* 重点关注
+* */
 public class Solution152 {
     public int maxProduct(int[] nums) {
         //考虑到有负数
@@ -9,7 +13,7 @@ public class Solution152 {
         for (int i = 1; i < nums.length; i++) {
             //临时变量在这里起到的作用是：由于max经过赋值之后会变化，导致min在计算的时候会变化
             int max1 = max;
-            ///////关键一步
+            ///////关键一步，时刻想着变量在这个过程中的变化
             max = Math.max(nums[i], Math.max(min * nums[i], max1 * nums[i]));
             min = Math.min(nums[i], Math.min(nums[i] * min, max1 * nums[i]));
             res = Math.max(res, max);

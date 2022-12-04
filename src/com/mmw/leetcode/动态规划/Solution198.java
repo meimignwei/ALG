@@ -1,4 +1,4 @@
-package com.mmw.leetcode.动态规划;
+package src.com.mmw.leetcode.动态规划;
 
 /*
 * 需要知道dp的每一个位置都是存储的是最大偷窃金额
