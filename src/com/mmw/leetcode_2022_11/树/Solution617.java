@@ -1,4 +1,4 @@
-package src.com.mmw.leetcode.树;
+package src.com.mmw.leetcode_2022_11.树;
 
 public class Solution617 {
     public TreeNode mergeTrees(TreeNode root1, TreeNode root2) {

@@ -1,4 +1,4 @@
-package com.mmw.leetcode.树;
+package src.com.mmw.leetcode.树;
 
 public class Solution543 {
     int res = 0;

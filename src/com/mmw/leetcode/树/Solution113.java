@@ -1,4 +1,4 @@
-package com.mmw.leetcode.树;
+package src.com.mmw.leetcode.树;
 
 import java.util.ArrayList;
 import java.util.List;
